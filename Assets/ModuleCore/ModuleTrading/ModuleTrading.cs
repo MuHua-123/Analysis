@@ -7,5 +7,5 @@ using UnityEngine;
 /// </summary>
 public abstract class ModuleTrading {
 	/// <summary> 执行交易 </summary>
-	public abstract void Execute();
+	public abstract void Execute(DataAnalysis analysis);
 }
